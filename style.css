@@ -1,11 +1,10 @@
 body{
     margin: 0;
-    width: 80%;
     font-family:'Poppins', sans-serif;
 
 }
 h1{
-    font-size: 30px;
+    font-size: 50px;
 }
 .name-h{
     color: orange;
@@ -13,12 +12,11 @@ h1{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 8%;
+    margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
     width: 100%;
-    padding-left: 40%;
 }
 .top-banner{
     background-image: url("images/developer-portfolio/top-banner.png");
@@ -29,7 +27,53 @@ section{
 }
 .button1{
     text-decoration: none;
-    background-image: linear-gradient(45deg, LightSalmon, tomato);
-    padding: 10px 20px;
     font-weight: 700;
+    background-image: linear-gradient(45deg, lightsalmon, tomato) ;
+    padding: 10px 20px;
+    border-radius: 5px;
     color: #fff;
+}
+.button1:hover{
+    background-image: linear-gradient(60deg, tomato, lightsalmon);
+}
+
+
+
+.dream-area{
+    margin-top: 20px;
+    background-image: url("images/developer-portfolio/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+
+}
+.dream-area img{
+    width: 100%;
+}
+.experience-area{
+    margin-top: 300px;
+    background-image: url("images/developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    
+}
+
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 300px;
+}
+#full-stack{
+    border-left: 7px solid #000;
+    border-image: linear-gradient(18deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#tull-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
